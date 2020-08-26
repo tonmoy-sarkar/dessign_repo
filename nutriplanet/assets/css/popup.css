@@ -1,0 +1,67 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	-ms-overflow-x: hidden;
+	    overflow-x: hidden;
+}
+.popup-body{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 4; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    overflow-x: hidden;
+    background: rgba(56, 56, 56, 0.9);
+}
+/* Add Animation */
+.popup{
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.7s;
+    margin-top: 65px;
+}
+
+.pop-up-content{
+    background: #fff;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.65);
+}
+.popup-image{
+    padding: 4px;
+    text-align: center;
+}
+.popup-image .popupimg{
+    width: auto;
+    height: 530px;
+}
+.heading{
+    padding: 1px 15px;
+    text-align: center;
+    background: #001f42;
+}
+.heading .headline{
+    font-size: 26px;
+    color: #fff;
+    margin-top: 15px;
+}
+.popup-description .description{
+    text-align: justify;
+    font-size: 13px;
+}
+.popup-description{
+    padding: 7px 17px
+}
+#cboxClose{
+    background: url(../../images/product/sliderBgImg.png) no-repeat 0px -100px;
+    width: 40px;
+    height: 40px;
+    top: -20px;
+    right: -22px;
+    position: relative;
+    cursor: pointer;
+}
