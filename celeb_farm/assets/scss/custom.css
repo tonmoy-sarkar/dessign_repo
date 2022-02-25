@@ -60,7 +60,13 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  margin-top: -49vh;
+  margin-top: -23%;
+}
+
+@media (max-width: 768px) {
+  .header_banner .header-text {
+    width: 100%;
+  }
 }
 
 .header_banner .header-text h2 {
@@ -107,6 +113,12 @@ body {
   margin: 0 auto;
   margin-top: -9%;
   margin-bottom: 65px;
+}
+
+@media (max-width: 768px) {
+  .fearture .feature-head {
+    width: 100%;
+  }
 }
 
 .fearture .feature-head h2 {
