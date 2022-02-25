@@ -1,0 +1,178 @@
+@font-face {
+    font-family: Nunito Sans;
+    src: url("./../fonts/NunitoSans-Regular.ttf");
+}
+body{
+    font-family: Nunito Sans !important;
+}
+
+.nav-container{
+    position: fixed;
+    top: 22px;
+    left: 0;
+    right: 0;
+    padding: 0 9%;
+}
+
+.navbar-ton{
+   ul{
+       li a{
+           font-size: 14px;
+           font-weight: 600;
+           color: #E0E0E0;
+           padding-right: 2rem !important;
+           padding-left: 2rem !important;
+       }
+   }
+   .nav-btn{
+    Width: 110px;
+    height: 40px;
+    border-radius: 6px;
+    font-weight: Bold;
+    font-size: 14px;
+    line-height: 26px;
+    &:nth-child(2){
+        color: #fff;
+        border-color: #fff;
+        border: 2px solid white;
+    }
+   }
+   .btn-link{
+    color:#90F9F0;
+   }
+
+}
+
+
+.header_banner{
+    height: 950px;
+    background-image: url("./../image/header/header-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+
+    .header-text{
+        width: 700px;
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: -23%;
+
+        h2{
+            color: white;
+            font-size: 64px;
+            line-height: 87px;
+            font-weight:700;
+        }
+        p{
+            color: #E0E0E0;
+            font-size: 18px;
+            line-height: 28px;
+            font-weight: 400;
+            margin-bottom: 70px;
+        }
+        .header_button{
+            span{
+                font-size: 18px;
+                line-height: 28px;
+                color: #E0E0E0;
+                margin: 0 26px
+            }
+            button{
+                width: 180px;
+                height: 50px;
+                border-radius: 6px;
+                font-size: 16px;
+                font-weight: 700;
+
+                &:nth-child(1) {
+                    background: #90F9F0;
+                }
+                &:nth-child(2) {
+                    background: #fff;
+                }
+            }
+        }
+    }
+}
+
+.fearture{
+    .feature-head{
+        width:711px;
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+        text-align:center;
+        margin: 0 auto;
+        margin-top: -9%;
+        margin-bottom: 65px;
+
+        h2{
+            font-weight: 700;
+            font-size: 31px;
+            line-height: 40px;
+            color: #29293E;
+            text-align: center;
+            width: 480px;
+            margin: 0 auto;
+        }
+        p{
+            font-size: 18px;
+            line-height: 28px;
+            font-weight: 400;
+            color: #5F6989;
+        }
+    }
+
+    .feature-body {
+        padding: 0 5%;
+        
+        .card{
+            text-align: center;
+            border: none;
+            img{
+                width: 180px;
+                margin: 0 auto;
+            }
+            .card-title{
+                font-weight:700;
+                font-size: 20px;
+                line-height: 27px;
+            }
+            .card-text{
+                font-size: 16px;
+                line-height: 20px;
+                font-weight: 400;
+                width: 195px;
+                margin: 0 auto;
+                margin-bottom: 28px;
+            }
+            a.btn{
+              font-weight: bold;
+              font-size: 14px;
+                Width: 197px;
+                i{
+                    line-height: 1.5;
+                    vertical-align:middle;
+                }
+                &:hover{
+                    color: #90F9F0;
+                }
+            }
+        }
+    }
+}
+
+.experience{
+    height: 1327px;
+    height: 950px;
+    background-image: url("./../image/experience/Supergraphic\ Background\ Section.png");
+    background-size: cover;
+    background-position: center 0 ;
+    background-repeat: no-repeat;
+}
