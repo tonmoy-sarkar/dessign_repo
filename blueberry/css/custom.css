@@ -9,4 +9,9 @@
 
 .testimonial-column.t .inner-column .testimonial-slide .content-box .image-box .thumb::before {
   display: none;
+}
+
+.banner-section .content-box .sub-title::before {
+  background-size: contain;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=custom.css.map */
