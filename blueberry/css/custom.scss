@@ -19,3 +19,12 @@
     background-repeat: no-repeat;
     
 }
+
+.booking-form-column .inner-column{
+    padding-left: 0px;
+    padding-top: 45px;
+    
+    &:before {
+        background-color: transparent !important;
+    }
+}
